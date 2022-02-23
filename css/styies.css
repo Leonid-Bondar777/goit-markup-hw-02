@@ -1,10 +1,29 @@
 .body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: 000000;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   font-size: 14px;
 }
-.list {
+ul {
   list-style: none;
+  text-decoration: none;
+}
+.logo-accen {
+  color: black;
+}
+.logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+.site-nav-text {
+  text-decoration: none;
+  color: black;
+}
+.site-nav-text:hover {
+  text-decoration: none;
+  color: #2196f3;
 }
