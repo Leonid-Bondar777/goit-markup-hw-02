@@ -1,3 +1,4 @@
+/* Подключение шрифтов */
 .body {
   font-family: "Roboto", sans-serif;
   color: 000000;
@@ -8,6 +9,10 @@ ul {
   list-style: none;
   text-decoration: none;
 }
+a {
+  text-decoration: none;
+}
+/* Логотип */
 .logo-accen {
   color: black;
 }
@@ -17,13 +22,20 @@ ul {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
-  text-decoration: none;
 }
+/* Меню */
 .site-nav-text {
-  text-decoration: none;
   color: black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-.site-nav-text:hover {
-  text-decoration: none;
-  color: #2196f3;
+/* фильтры */
+.filter-button {
+  color: black;
+  background: #2196f3;
+}
+.filter-button:hover {
+  color: wheat;
 }
