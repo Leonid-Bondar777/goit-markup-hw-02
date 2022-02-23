@@ -4,6 +4,7 @@
   color: 000000;
   background-color: #ffffff;
   font-size: 14px;
+  line-height: 1.45;
 }
 ul {
   list-style: none;
@@ -15,6 +16,9 @@ a {
 /* Логотип */
 .logo-accen {
   color: black;
+}
+.logo-accen-footer {
+  color: white;
 }
 .logo {
   font-weight: bold;
@@ -31,6 +35,16 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.site-nav-text:hover {
+  color: #2196f3;
+}
+/* контакты*/
+.contacts-text {
+  color: #757575;
+}
+.contacts-text:hover {
+  color: #2196f3;
+}
 /* фильтры */
 .filter-button {
   color: black;
@@ -38,4 +52,27 @@ a {
 }
 .filter-button:hover {
   color: wheat;
+}
+/* Стол заказов */
+.section-services {
+  background: #2f303a;
+}
+.section-title {
+  color: white;
+}
+/* Подвал */
+.footer {
+  background: #2f303a;
+}
+.footer-location {
+  color: #ffffff;
+}
+.footer-location:hover {
+  color: #2196f3;
+}
+.footer-text {
+  color: #ffffff99;
+}
+.footer-text:hover {
+  color: #2196f3;
 }
