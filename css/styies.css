@@ -35,6 +35,11 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.button {
+  cursor: pointer;
+  background-color: #2196f3;
+  color: #ffffff;
+}
 .site-nav-text:hover {
   color: #2196f3;
 }
@@ -48,14 +53,17 @@ a {
 /* фильтры */
 .filter-button {
   color: black;
-  background: #2196f3;
+  cursor: pointer;
 }
 .filter-button:hover {
-  color: wheat;
+  background-color: #2196f3;
+}
+.filter-button:hover {
+  color: white;
 }
 /* Стол заказов */
 .section-services {
-  background: #2f303a;
+  background: #2b2e4b;
 }
 .section-title {
   color: white;
