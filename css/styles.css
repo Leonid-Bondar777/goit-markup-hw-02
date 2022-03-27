@@ -78,10 +78,11 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.4;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
 /* секция 2 */
 .specifics {
