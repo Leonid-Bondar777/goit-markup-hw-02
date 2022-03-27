@@ -13,10 +13,22 @@ body {
   font-size: 14px;
   line-height: 1.45;
 }
+/* Розметка текста*/
 .list {
   list-style: none;
 }
-
+.link {
+  text-decoration: none;
+}
+.main-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
 .title {
   color: #212121;
   font-family: "Roboto";
@@ -37,7 +49,23 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
+.title-portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+  letter-spacing: 0.06em;
+}
+.section-title {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
 /* Логотип */
 .logo-accen {
   color: black;
@@ -51,17 +79,11 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  /* identical to box height */
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-.section-title {
-  color: #ffffff;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-}
+/* секция 2 */
 .specifics {
   font-family: "Roboto";
   font-style: normal;
@@ -70,7 +92,7 @@ body {
   line-height: 24px;
 }
 /* Меню */
-.site-nav {
+.site-nav-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -80,31 +102,54 @@ body {
   color: #212121;
 }
 
-.button {
+.button:focus,
+.button:hover {
   cursor: pointer;
   background-color: #2196f3;
   color: #ffffff;
 }
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
 .site-nav-text:hover,
-:focus {
+.site-nav-text:focus {
   color: #2196f3;
 }
 /* контакты*/
 .contacts-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #757575;
 }
-.contacts-text:hover {
+.contacts-text:hover,
+.contacts-text:focus {
   color: #2196f3;
 }
+
 /* фильтры */
+.footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+}
 .filter-button {
   color: black;
   cursor: pointer;
 }
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   background-color: #2196f3;
 }
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   color: white;
 }
 /* Стол заказов */
@@ -119,14 +164,31 @@ body {
   background: #2f303a;
 }
 .footer-location {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
-.footer-location:hover {
+.footer-location:hover,
+.footer-location:focus {
   color: #2196f3;
 }
 .footer-text {
-  color: #ffffff99;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.footer-text:hover {
+.footer-text:hover,
+.footer-text:focus {
   color: #2196f3;
 }
