@@ -5,6 +5,26 @@ body {
     font-size: 14px;
     line-height: 19.6px;
         }
-.list-text-decoration {
-    list-style: none;
-    }
+.list-text-decoration,
+.menu,
+.menu-contacts
+ {
+    list-style-type: none;
+        }
+.menu-contacts-link, 
+.logo-link,
+.menu-link {
+    text-decoration: none;
+}
+button {cursor: pointer;}
+.logo-link
+{ 
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: left;
+color: rgba(77, 90, 229, 1);
+
+}
