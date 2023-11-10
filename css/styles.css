@@ -1,12 +1,15 @@
 body {
     
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     color:#434455;
     background-color:#FCFCFC;
     font-size: 14px;
-    line-height: 19.6px;
+    line-height: 1.4;
 
         }
+
+/* decor none */
+
 .list-text-decoration,
 .menu,
 .menu-contacts
@@ -19,6 +22,9 @@ body {
     text-decoration: none;
 }
 button {cursor: pointer;}
+
+/* logo */
+
 .logo-link
 { 
     font-family: "Raleway";
@@ -29,19 +35,61 @@ button {cursor: pointer;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: left;
+    
 }
 .lodo-accent{
     color: black;
     font-family: "Raleway";
+    }
+.logo-accen-footer {
+            color: white;
+        }
     
-}
-.menu-link {
+/* menu  */
 
+.menu-list {
+            font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        
 }
+
+.menu-link {
+    color: rgba(46, 47, 66, 1);;
+}
+
+.menu-link:focus,
+.menu-link:hover {
+        color: #404BBF;
+        }
+
+                /* menu  contacts */
+
+.menu-contacts {
+    
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+.menu-contacts-link {
+color: rgba(67, 68, 85, 1);
+}
+.menu-contacts-link:hover,
+.menu-contacts-link:focus {
+        
+        color: #404BBF;
+        
+}
+
+
+
+/* order */
+
 .order-service {
     background: rgba(46, 47, 66, 1);
-    width: 1440px;
-    height: 600px;
     color: #FCFCFC;
            
  }
