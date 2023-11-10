@@ -1,9 +1,11 @@
 body {
+    
     font-family: "Roboto";
     color:#434455;
     background-color:#FCFCFC;
     font-size: 14px;
     line-height: 19.6px;
+
         }
 .list-text-decoration,
 .menu,
@@ -19,12 +21,44 @@ body {
 button {cursor: pointer;}
 .logo-link
 { 
-font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-align: left;
-color: rgba(77, 90, 229, 1);
+    font-family: "Raleway";
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: left;
+}
+.lodo-accent{
+    color: black;
+    font-family: "Raleway";
+    
+}
+.menu-link {
+
+}
+.order-service {
+    background: rgba(46, 47, 66, 1);
+    width: 1440px;
+    height: 600px;
+    color: #FCFCFC;
+           
+ }
+.order-service-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+}
+.order-service-button {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    
 
 }
