@@ -29,7 +29,7 @@ button {cursor: pointer;}
 
 .logo-link
 { 
-    
+    font-family: "Raleway", sans-serif;
     color: #4D5AE5;
     font-size: 18px;
     font-weight: 700;
@@ -46,7 +46,7 @@ button {cursor: pointer;}
 .logo-accen-footer {
 
             color: white;
-            
+            font-family: "Raleway", sans-serif;
             font-size: 18px;
             font-weight: 700;
             line-height: 1.17;
@@ -233,7 +233,7 @@ background: rgba(46, 47, 66, 1);
 }
 
 .footer-advice{
-
+font-family: "Raleway", sans-serif;
         color: white;
         font-size: 16px;
         font-weight: 400;
