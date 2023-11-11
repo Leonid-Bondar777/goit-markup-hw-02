@@ -41,7 +41,14 @@ button {cursor: pointer;}
 }
 .lodo-accent{
     color: black;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
+font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: left;
+
     }
 .logo-accen-footer {
 
@@ -109,9 +116,8 @@ color: rgba(67, 68, 85, 1);
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    
+    text-transform: capitalize;
 }
-
 /* order button */
 
 .order-service-button {
@@ -156,7 +162,7 @@ color: rgba(67, 68, 85, 1);
 /*  Section-Our-Team  */
 
 .our-team{
-background-color: rgba(244, 244, 253, 1);
+background-color: #ffffff;
 }
 
 .our-team-title{
@@ -195,14 +201,16 @@ background-color: rgba(244, 244, 253, 1);
 /*  Section-Our-Portfolio  */
 
 
-.our-portfolio-title{
+.our-portfolio-title
+{
 
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    
+    text-align: center;
+        text-transform: capitalize;
 }
 
 .our-portfolio-service{
