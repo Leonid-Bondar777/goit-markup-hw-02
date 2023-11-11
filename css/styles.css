@@ -29,7 +29,7 @@ button {cursor: pointer;}
 
 .logo-link
 { 
-    font-family: "Raleway";
+    
     color: #4D5AE5;
     font-size: 18px;
     font-weight: 700;
@@ -46,7 +46,7 @@ button {cursor: pointer;}
 .logo-accen-footer {
 
             color: white;
-            font-family: Raleway;
+            
             font-size: 18px;
             font-weight: 700;
             line-height: 1.17;
