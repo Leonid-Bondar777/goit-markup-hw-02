@@ -1,6 +1,6 @@
 body {
     
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color:#434455;
     background-color:#FCFCFC;
     font-size: 14px;
@@ -12,7 +12,8 @@ body {
 
 .list-text-decoration,
 .menu,
-.menu-contacts
+.menu-contacts,
+.our-portfolio-link
  {
     list-style-type: none;
         }
@@ -42,13 +43,22 @@ button {cursor: pointer;}
     font-family: "Raleway";
     }
 .logo-accen-footer {
+
             color: white;
+            font-family: Raleway;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-align: left;
+
         }
     
 /* menu  */
 
 .menu-list {
-            font-size: 16px;
+
+        font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -116,5 +126,117 @@ color: rgba(67, 68, 85, 1);
 
 .order-service-button:hover,
 .order-service-button:focus {
+    
     background-color: #404BBF;
+}
+
+/*  Section-Advantages */
+
+.advantages-title {
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.advantages-paragraph {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+/*  Section-Our-Team  */
+
+.our-team{
+background-color: rgba(244, 244, 253, 1);
+}
+
+.our-team-title{
+
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    
+}
+
+.our-team-name{
+    
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+}
+.our-team-profession{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
+/*.our-team-link{
+    background-color: #ffffff;
+    
+}*/
+
+/*  Section-Our-Portfolio  */
+
+
+.our-portfolio-title{
+
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    
+}
+
+.our-portfolio-service{
+    
+font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.our-portfolio-name{
+
+        color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        
+}
+
+/*.our-portfolio-decoration {}*/
+
+/*  footer  */
+
+footer{
+background: rgba(46, 47, 66, 1);
+}
+
+.footer-advice{
+
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+    
 }
