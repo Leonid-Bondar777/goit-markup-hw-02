@@ -163,7 +163,7 @@ color: rgba(67, 68, 85, 1);
 /*  Section-Our-Team  */
 
 .our-team{
-background-color: rgba(244, 244, 253, 1);
+background-color: #F4F4FD;
 }
 
 .our-team-title{
@@ -173,7 +173,8 @@ background-color: rgba(244, 244, 253, 1);
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .our-team-name{
@@ -183,7 +184,8 @@ background-color: rgba(244, 244, 253, 1);
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    
+    text-align: center;
+    text-transform: capitalize;
 }
 .our-team-profession{
 
@@ -194,8 +196,9 @@ background-color: rgba(244, 244, 253, 1);
     
 }
 
-.our-team-link{
-    background-color: #ffffff;
+.our-team-link
+{
+    background-color: #FFFFFF
     
 }
 
