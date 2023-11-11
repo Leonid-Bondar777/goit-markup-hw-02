@@ -81,10 +81,8 @@ color: rgba(67, 68, 85, 1);
 .menu-contacts-link:focus {
         
         color: #404BBF;
-        
+   
 }
-
-
 
 /* order */
 
@@ -101,12 +99,22 @@ color: rgba(67, 68, 85, 1);
     text-align: center;
     
 }
-.order-service-button {
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    
 
+/* order button */
+
+.order-service-button {
+        background-color: #4D5AE5;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: left;
+        color: #ffffff;
+        
+    }
+
+.order-service-button:hover,
+.order-service-button:focus {
+    background-color: #404BBF;
 }
