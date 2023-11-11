@@ -118,6 +118,7 @@ color: rgba(67, 68, 85, 1);
     text-align: center;
     text-transform: capitalize;
 }
+
 /* order button */
 
 .order-service-button {
@@ -162,7 +163,7 @@ color: rgba(67, 68, 85, 1);
 /*  Section-Our-Team  */
 
 .our-team{
-background-color: #ffffff;
+background-color: rgba(244, 244, 253, 1);
 }
 
 .our-team-title{
@@ -193,10 +194,10 @@ background-color: #ffffff;
     
 }
 
-/*.our-team-link{
+.our-team-link{
     background-color: #ffffff;
     
-}*/
+}
 
 /*  Section-Our-Portfolio  */
 
