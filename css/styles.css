@@ -164,6 +164,8 @@ color: rgba(67, 68, 85, 1);
 
 .our-team{
 background-color: #F4F4FD;
+text-align: center;
+    text-transform: capitalize;
 }
 
 .our-team-title{
@@ -173,8 +175,7 @@ background-color: #F4F4FD;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
+    
 }
 
 .our-team-name{
