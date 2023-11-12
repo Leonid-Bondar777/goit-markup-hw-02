@@ -24,6 +24,10 @@ body
 }
 button {cursor: pointer;}
 
+.address-link{
+    font-style: normal
+}
+
 /* logo */
 
 .logo
