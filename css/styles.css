@@ -19,7 +19,6 @@ body
     list-style-type: none;
         }
 .menu-contacts-link, 
-.logo-link,
 .menu-link {
     text-decoration: none;
 }
@@ -27,7 +26,7 @@ button {cursor: pointer;}
 
 /* logo */
 
-.logo-link
+.logo
 { 
     font-family: "Raleway", sans-serif;
     color: #4D5AE5;
@@ -37,17 +36,12 @@ button {cursor: pointer;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: left;
+    text-decoration: none;
     
 }
 .logo-accent{
     color: black;
-    font-family: "Raleway", sans-serif;
-font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: left;
+    
 
     }
     .logo-accen-footer {
