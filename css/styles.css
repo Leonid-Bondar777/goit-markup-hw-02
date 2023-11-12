@@ -39,7 +39,7 @@ button {cursor: pointer;}
     text-align: left;
     
 }
-.lodo-accent{
+.logo-accent{
     color: black;
     font-family: "Raleway", sans-serif;
 font-size: 18px;
@@ -50,17 +50,7 @@ font-size: 18px;
     text-align: left;
 
     }
-.logo-accen-footer {
 
-            color: white;
-            font-family: "Raleway", sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            text-align: left;
-
-        }
     
 /* menu  */
 
@@ -243,6 +233,7 @@ font-size: 16px;
 
 .footer-content{
 background: rgba(46, 47, 66, 1);
+color: #f4f4fd
 }
 
 .footer-advice{
@@ -255,3 +246,14 @@ font-family: "Raleway", sans-serif;
         text-align: left;
     
 }
+.logo-accen-footer {
+
+            color: #f4f4fd;
+            font-family: "Raleway", sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-align: left;
+
+        }
